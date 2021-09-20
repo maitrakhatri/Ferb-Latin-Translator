@@ -50,16 +50,6 @@ button{
 
 }
 
-.image1 {
-    max-width: 150px;
-    float: left;
-}
-
-.image2 {
-    max-width: 300px;
-    float: left;
-}
-
 .output {
     margin: auto;
     width: 50%;
