@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+
+body {
+    font-family: 'Shadows Into Light', cursive;
+    
+}
+
+.header{
+    background-color: 	#7a61d5; 
+    text-align: center;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-bottom-left-radius: 10rem;
+    border-bottom-right-radius: 10rem;
+    color: white;
+}
+
+.input{
+    margin-bottom: 1rem;
+    text-align: center;
+    margin: auto;
+    padding: 2rem;
+    
+}
+
+button{
+    border: none;
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+    background-color: #7a61d5 ;
+    box-sizing: border-box;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+.btn {
+    text-align: center;
+    padding: 2rem;
+    
+}
+
+.output{
+    margin-bottom: 3rem;
+    padding: 3rem;
+    border-style: solid;
+
+}
+
+.image1 {
+    max-width: 150px;
+    float: left;
+}
+
+.image2 {
+    max-width: 300px;
+    float: left;
+}
+
+.output {
+    margin: auto;
+    width: 50%;
+    border: 3px solid #7a61d5 ;
+    padding: 2rem;
+}
+
+textarea {
+    width: 750px;
+    border-style: solid;
+    
+}
+
+.footer {
+    background-color: #7a61d5 ;
+    max-height: 125px;
+    text-align: center;
+    padding: 2rem;
+    margin-top: 10rem;
+    border-top-left-radius: 10rem;
+    border-top-right-radius: 10rem;
+}
+
+.footer-title {
+    color: white;
+    padding-bottom: 1rem;
+
+}
+
+.footer-links {
+    color: black;
+    text-decoration-line: none;
+    padding: 2rem;
+    font-weight: bolder;
+}
