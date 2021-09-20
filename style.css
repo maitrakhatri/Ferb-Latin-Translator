@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 
 
 body {
-    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Source Code Pro', monospace;
     
 }
 
@@ -21,7 +21,10 @@ body {
     text-align: center;
     margin: auto;
     padding: 2rem;
-    
+}
+
+textarea {
+    max-width: 20rem;
 }
 
 button{
@@ -62,6 +65,7 @@ button{
     width: 50%;
     border: 3px solid #7a61d5 ;
     padding: 2rem;
+    max-width: 20rem;
 }
 
 textarea {
