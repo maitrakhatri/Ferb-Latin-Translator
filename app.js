@@ -1,20 +1,18 @@
-var button = document.querySelector("#btn");
-var input = document.querySelector("#txt-input");
-var outputDiv = document.querySelector("#txt-output");
+const button = document.querySelector("#btn");
+const input = document.querySelector("#txt-input");
+const outputDiv = document.querySelector("#txt-output");
 
-var serverUrl= "https://api.funtranslations.com/translate/ferb-latin.json"
+let serverUrl= "https://api.funtranslations.com/translate/ferb-latin.json"
 
-function getTranslationUrl(input) {
-    return serverUrl + "?" + "text=" + input
-}
+const getTranslationUrl = input => `${serverUrl}?text=${input}`
 
-function errorHandler(error) {
-    console.log("error occured", error);
+const errorHandler = error => {
+    console.log(`error occured: ${error}`);
     alert("Something is wrong with the Server !! Please try after sometime")
 }
 
-function clickHandler() {
-    var inputText = input.value;
+const clickHandler = () => {
+    let inputText = input.value;
 
     fetch(getTranslationUrl(inputText))
         .then(respose => respose.json())
